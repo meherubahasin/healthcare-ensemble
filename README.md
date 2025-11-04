@@ -9,8 +9,6 @@ This project combines **three medical datasets** (Diabetes, Heart Disease, Kidne
 
 - Predicts **likelihood of each disease**
 - Generates **personalized health recommendations** using **Google Gemini**
-- Runs as a **scalable FastAPI service**
-- Is **fully containerized** with Docker
 - Supports **CI/CD** via GitHub Actions
 
 ---
