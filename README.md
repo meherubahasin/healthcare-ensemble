@@ -29,13 +29,23 @@ This project combines **three medical datasets** (Diabetes, Heart Disease, Kidne
 
 ## Project Structure
 healthcare_ensemble/
+
 ├── config/              # Settings & config
+
 ├── data/raw/            # Input CSV files
+
 ├── models/              # Trained models & scaler
+
 ├── src/
+
 │   ├── preprocessing.py # Data cleaning & alignment
+
 │   ├── models.py        # Training & ensemble logic
+
 │   ├── inference.py     # Gemini recommendations
+
 ├── scripts/train.py     # Training pipeline
+
 ├── tests/               # Unit tests
+
 ├── requirements.txt
